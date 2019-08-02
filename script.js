@@ -29,7 +29,6 @@ function win(userChoice, computerChoice) {
   result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord}. You Win!`;
 }
 
-setTimeout(function()
 
 function lose(userChoice, computerChoice) {
   userScore++;

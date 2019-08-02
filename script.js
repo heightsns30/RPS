@@ -47,17 +47,17 @@ function draw(userChoice, computerChoice) {
 }
 
 function game(userChoice) {
-  const computerChoice = getComputerchoice();
+  const computerChoice = getComputerChoice();
   switch (userChoice + computerChoice) {
     case "rs":
     case "pr":
     case "sp":
-     win(userChoice, computerChoice);
+      win(userChoice, computerChoice);
       break;
     case "rp":
     case "ps" :
     case "sr":
-     lose(userChoice, computerChoice);
+      lose(userChoice, computerChoice);
       break;
     case "rr":
     case "pp":
@@ -66,6 +66,7 @@ function game(userChoice) {
       break;
   }
 }
+
 
 function main() {
   rock_div.addEventListener('click', function() {
